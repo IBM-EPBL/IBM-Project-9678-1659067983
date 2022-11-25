@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  position: relative;
+  font-family: Arial;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 12.5%;
+  display:flex;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  
+}
+.container .btn:hover {
+  background-color: black;
+  color: white;
+}
+.myflex{
+  display: flex;
+  align-items: center;
+  background-color: #21222A;
+  color: white;
+  justify-content: space-between;
+  font-size: x-large;
+}
+.myflex > h3{
+  margin-right: auto;
+  
+  font-weight: 700;
+  font-size: 30px;
+}
+.myflex >h4{
+  margin-right: 20px;
+  font-weight: 600;
+}
+.logo{
+  width: 60px;
+  margin-right: 20px;
+ height: 90px;
+
+}
+.para1{
+ display: flex;
+  align-items: center;
+ justify-content: space-between;
+margin:10px;
+text-align: justify;
+tab-size: 8;
+}
+.para2{
+display: flex;
+  align-items: center;
+ justify-content: space-between;
+margin:10px;
+text-align: justify;
+tab-size: 8;
+}
+.para1 >h3{
+
+  font-family: "Times New Roman", Times, serif;
+  font-weight: normal;
+
+}
+.para2>h3
+{
+ font-family: "Times New Roman", Times, serif;
+  font-weight: normal;
+}
+
+</style>
+</head>
+<body>
+
+<header>
+            <nav class='myflex'>
+             <img src="{{url_for('static', filename='images/i1.png')}}" class="logo" alt="logo"><br>
+             <h3>Car Price Predictor!</h3>
+             <h4>Home</h4>
+            </nav>
+  </header> 
+<div class="container">
+  <img src="{{url_for('static', filename='images/unnamed.jpg')}}" alt="Nature" style="width:100%;">
+  <a href="predict.html" class="btn">Want to know the resale value of your car?</a>
+  <div class="text-block">
+    <h4>Hurray</h4>
+    <p>A Car For All Budgets!!!</p>
+  </div>
+</div>
+<div class="para">
+	<div class="para1">
+			            <h3 ><i>		The growing world of e-commerce is not just restricted to buying electronics and clothings but everything that you expect in a general store.
+ Keeping the general store perspective aside and looking at the bigger picture, every day there are thousands or perhaps millions of deals happening in the digital marketplace. 
+One of the most booming markets in the digital space is that of the automobile industry wherein the buying and selling of used cars take place. 
+The rise of e-commerce facilities and the practical aspect of unaffordability due to inflation have created a niche market for used vehicles. 
+The only difference here is that you do not have to walk up to the dealer or individual sellers to get a used car price quote, instead you get the used car valuation at the comfort of your home within 10 seconds.
+However, buyers and sellers face a major stumbling block when it comes to their used car valuation or say their second-hand car price.</i></h3>
+
+	</div>
+	<div class="para2">
+		<h3><i>		Traditionally, you would go to a showroom and get your vehicle inspected before learning about the price, 
+but now you do not need to do that anymore. With technologically advanced websites which is a well-known used car valuation tool, 
+you can simply check your pre-owned car price online in a hassle-free manner. You can check used Audi car price, used Hyundai car price, 
+second-hand Honda car price, and so on. As a seller, you will always look to make the most out of the deal, and as a buyer, 
+you are not willing to spend an extra penny on the deal for Used car price. The difference in thoughts and expectations often keeps buyers 
+from buying and sellers from selling the product. However, you need not hear from anyone else. Simply visit the website and with the help of a used car pricing
+ calculator, you can get the right amount range for your used car.</i></h3>
+</div>
+
+
+</div>
+</body>
+</html> 
